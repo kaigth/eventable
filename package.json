@@ -1,0 +1,15 @@
+{
+  "name": "eventable",
+  "version": "1.0.0",
+  "description": "A standard Event and animation frame cycle handler.",
+  "main": "eventable.js",
+  "scripts": {
+    "test": "webpack test/test.js test/dist/common.js ; cp eventable.js test/dist/browser.js"
+  },
+  "keywords": [
+    "dispatch",
+    "event"
+  ],
+  "author": "James Smith",
+  "license": "MIT"
+}
