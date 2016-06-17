@@ -105,13 +105,13 @@
             handler._eventId = this._getUID;
 
             for (var i = events.length; i--; ) {
-            if (typeof handler === 'function') {
-                if (!this._handlers[events[i]]) {
-                    this._handlers[events[i]] = [];
-                }
+                if (typeof handler === 'function') {
+                    if (!this._handlers[events[i]]) {
+                        this._handlers[events[i]] = [];
+                    }
 
-                this._handlers[events[i]].push(handler);
-            }
+                    this._handlers[events[i]].push(handler);
+                }
             };
 
             return this;
