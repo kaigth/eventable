@@ -130,7 +130,7 @@
                 return this;
             }
             
-            args = [].slice.call( arguments, 1 );
+            var args = [].slice.call( arguments, 1 );
             
             for (var i = this._handlers[event].length; i--;) {
                 this._handlers[event][i].apply(this, args);
